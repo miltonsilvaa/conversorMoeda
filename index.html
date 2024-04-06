@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Conversor de moeda</title>
+  <!--CSS-->
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="header.css" rel="stylesheet" type="text/css" />
+  <link href="footer.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Conversor de moeda</h1>
+  </header>
+
+  <main>
+    <form id="form">
+      <section class="inputs-container">
+        <div class="form-group">
+          <label for="value-real">Valor a ser convertido (R$)</label>
+          <input type="number" placeholder="R$20,00" id="value-real" name="value-real" max="1000000">
+        </div>
+
+        <div class="form-group">
+          <label for="currency">Escolha a moeda</label>
+          <select id="currency">
+            <option value="">Selecione...</option>
+            <option value="eur">Euro</option>
+            <option value="dol">Dólar</option>
+          </select>
+        </div>
+      </section>
+
+      <button type="submit">Converter</button>
+    </form>
+
+    <h2 id="result"></h2>
+  </main>
+
+  <footer>
+    <span>&copy; Milton Silva De Jesus, 2024. Todos os direitos reservados.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html> 
