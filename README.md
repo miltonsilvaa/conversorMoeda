@@ -12,7 +12,7 @@ Bem-vindo ao Conversor de Moeda! Este projeto permite converter valores de Reais
 
 Antes de começar, verifique se você possui os seguintes requisitos:
 
-- Navegador da web moderno (como Google Chrome, Mozilla Firefox, Safari, etc.)
+- Navegador da web moderno (como Google Chrome, Mozilla Firefox, Safari, etc).
 
 ### 🔨 Guia de instalação
 
@@ -24,9 +24,9 @@ Siga estas etapas para instalar o projeto em sua máquina local:
 git clone https://github.com/miltonsilvaa/conversorMoeda
 ```
 
-2. Navegue até a pasta do projeto
+2. Navegue até a pasta do projeto.
 
-3. Abra o arquivo index.html no seu navegador preferido
+3. Abra o arquivo index.html no seu navegador preferido.
 
 ## 📦 Tecnologias usadas:
 
